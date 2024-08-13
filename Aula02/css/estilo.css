@@ -1,0 +1,10 @@
+section {
+    max-width: 85%;
+    margin: auto;
+}
+
+.destacado {
+    color: #f00;
+    font-weight: bold;
+    font-size: 22px;
+}
