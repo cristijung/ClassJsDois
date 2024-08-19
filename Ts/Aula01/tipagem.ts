@@ -14,9 +14,11 @@ let numeros: number[] = [1, 2, 3, 4, 5, 6, 7, 8];
 let alunos: string[] = ["Ana", "Bia", "Marcelo"];
 
 //Tuplas
+// permite definir um array com um nº fixo de elementos e tipos especificos para cada elemento
 let pessoa: [string, number] = ["Ana", 30];
 
 //Enums
+//Cria um conjunto de constantes nomeadas e definidas
 enum Cor {
     vermelho,
     verde,
@@ -26,18 +28,22 @@ enum Cor {
 let corFavorita: Cor = Cor.vermelho;
 
 //Objetos
+//Interface é um contrato de várias variáveis que serão utilizadas
+//na aplicação
 interface Carro {
     marca: string;
     modelo: string;
     ano: number;
 }
 
-// let meuCarro: Carro = {
-//     marca: "Toyota",
-//     modelo: "Algum"
-// };
+let meuCarro: Carro = {
+    marca: "Toyota",
+    modelo: "Algum",
+    ano: 2014,    
+};
 
 //Literais
+//Tem função de restringir o valore de uma variável e um conjunto específico de valores literais
 let diracao: 'cima' | 'baixo' | 'esquerda' | 'direita' = 'cima';
 
 //uniões
