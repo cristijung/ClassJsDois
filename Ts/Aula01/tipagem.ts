@@ -92,7 +92,7 @@ type PessoaComEndereco = Pessoa & {
 
 
 //Literais
-//Tem função de restringir o valore de uma variável e um conjunto específico de valores literais
+//Tem função de restringir o valor de uma variável e um conjunto específico de valores literais
 let diracao: 'cima' | 'baixo' | 'esquerda' | 'direita' = 'cima';
 
 //uniões
